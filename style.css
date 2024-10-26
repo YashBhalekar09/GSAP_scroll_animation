@@ -1,0 +1,172 @@
+@font-face {
+  font-family: GravityFont;
+  src: url(assets/Font/MonumentExtended-Regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GravityFont;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  height: 100vh;
+  gap: 2vw;
+  justify-content: start;
+  background-color: black;
+}
+
+.text-loader {
+  font-size: 1.3rem;
+  opacity: 0;
+}
+
+.text-45 {
+  margin-left: 13vw;
+}
+
+.text-57 {
+  margin-left: 11vw;
+}
+
+.text-75 {
+  margin-left: 10vw;
+}
+
+.text-98 {
+  margin-left: 9vw;
+}
+
+.text-100 {
+  margin-left: 2vw;
+}
+
+.fixed-para {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+.flex-p-content {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.cntr-p,
+.cntr2-p {
+  text-align: center;
+  z-index: 999;
+  font-size: 1.3rem;
+}
+
+.nav {
+  margin-top: 3vh;
+  gap: 2vw;
+}
+
+.nav a {
+  text-decoration: underline;
+  z-index: 999;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 200;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  font-size: 3rem;
+}
+
+.heading-text {
+  font-size: 11rem;
+}
+
+#one-text {
+  position: absolute;
+  top: 120%;
+}
+
+.section-img {
+  position: relative;
+  margin-left: 35%;
+  width: 30%;
+  height: 100vh;
+  background-position: center;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 99999;
+  cursor: pointer;
+}
+
+#img-one {
+  background-image: url(assets/images/img7.jpg);
+}
+
+#img-two {
+  background-image: url(assets/images/img1.jpg);
+}
+
+#img-three {
+  background-image: url(assets/images/img6.jpg);
+}
+
+#img-four {
+  background-image: url(assets/images/img5.jpg);
+}
+
+#img-five {
+  background-image: url(assets/images/img4.jpg);
+}
+
+#img-six {
+  background-image: url(assets/images/img3.jpg);
+}
+
+#img-seven {
+  background-image: url(assets/images/img2.jpg);
+}
+
+#page2 {
+  background-color: black;
+}
+
+.cntrp {
+  position: absolute;
+  top: 330%;
+  text-align: center;
+  z-index: 99;
+  font-size: 0.7rem;
+}
